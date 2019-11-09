@@ -7,7 +7,6 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -51,7 +50,7 @@
     <provider
       android:name=".reader.ZimContentProvider"
       android:authorities="${applicationId}.zim.base"
-      android:exported="true" />
+      android:exported="false" />
 
     <receiver android:name=".main.KiwixSearchWidget">
       <intent-filter>
