@@ -1,5 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors:
+* Alex00728
+* CYAN
+* Jerrykim306
+* Macofe
+* Priviet
+* Ykhwong
+* 아라
+-->
 <resources>
+  <string name="kiwi">키위</string>
   <string name="menu_zim_manager">내용 가져오기</string>
   <string name="menu_help">도움말</string>
   <string name="menu_home">홈</string>
@@ -12,6 +22,7 @@
   <string name="menu_exit_full_screen">전체 화면에서 나가기</string>
   <string name="menu_read_aloud">소리내어 읽기</string>
   <string name="menu_read_aloud_stop">그만 소리내어 읽기</string>
+  <string name="menu_support_kiwix">Kiwix 지원하기</string>
   <string name="save_media">미디어 저장</string>
   <string name="save_media_error">미디어 저장을 시도할 때 오류가 발생하였습니다!</string>
   <string name="save_media_saved">내 사진 폴더에 %1$s 미디어가 저장되었습니다</string>
@@ -19,6 +30,23 @@
   <string name="search_label">검색</string>
   <string name="choose_file">내용 파일 (*.zim) 선택</string>
   <string name="open_in_new_tab">새 탭으로 링크를 여시겠습니까?</string>
+  <string name="hotspot_service_channel_name">핫스팟 서비스 채널</string>
+  <string name="hotspot_failed_title">핫스팟 시작을 실패했습니다</string>
+  <string name="hotspot_failed_message">핫스팟이 이미 켜져있는 것 같습니다. 계속하려면 와이파이 핫스팟을 비활성화해 주십시오.</string>
+  <string name="go_to_wifi_settings_label">와이파이 설정으로 이동</string>
+  <string name="go_to_settings_label">설정으로 이동</string>
+  <string name="stop_hotspot_button">정지</string>
+  <string name="server_failed_message">서버를 시작하지 못했습니다. 핫스팟을 켜 주십시오</string>
+  <string name="server_failed_toast_message">서버를 시작하지 못했습니다.</string>
+  <string name="server_started__successfully_toast_message">서버가 성공적으로 시작되었습니다.</string>
+  <string name="hotspot_details_message">다음은 로컬 핫스팟의 상세 정보입니다.\nSSID : %1$s \nPass : %2$s</string>
+  <string name="server_textview_default_message">서버에 호스팅할 파일을 선택하십시오</string>
+  <string name="progress_dialog_starting_server">서버 시작 중</string>
+  <string name="hotspot_dialog_title">와이파이 핫스팟 켜기</string>
+  <string name="hotspot_notification_content_title">키윅스 핫스팟</string>
+  <string name="start_server_label">서버 시작</string>
+  <string name="stop_server_label">서버 정지</string>
+  <string name="server_started_message">%s 서버에 접속하려면 브라우저에 이 IP 주소를 입력하십시오</string>
   <string name="error_file_not_found">오류: 선택된 ZIM 파일을 찾을 수 없습니다.</string>
   <string name="error_file_invalid">오류: 선택한 파일은 올바른 ZIM 파일이 아닙니다.</string>
   <string name="error_article_url_not_found">오류: 문서(Url: %1$s)를 불러오는 데 실패했습니다.</string>
@@ -52,6 +80,8 @@
   <string name="pref_clear_all_history_summary">최근 검색 및 탭 역사 지우기</string>
   <string name="all_history_cleared_toast">모든 역사를 삭제했습니다</string>
   <string name="clear_all_history_dialog_title">모든 역사 지우기</string>
+  <string name="share">공유</string>
+  <string name="selected_file_cab_app_chooser_title">ZIM 파일을 다음과 공유:</string>
   <string name="delete">삭제</string>
   <string name="delete_specific_search_toast">최근의 검색이 제거되었습니다</string>
   <string name="hint_contents_drawer_message">왼쪽으로 밀면 이 문서의 내용을 볼 수 있습니다</string>
@@ -79,6 +109,7 @@
   <string name="remote_zims">온라인</string>
   <string name="zim_downloads">다운로드 중</string>
   <string name="zim_manager">라이브러리</string>
+  <string name="delete_zim_body">%s을(를) 삭제하시겠습니까?</string>
   <string name="delete_specific_zim_toast">파일이 삭제되었습니다</string>
   <string name="zim_file_downloading">다운로드 중</string>
   <string name="zim_file_downloaded">다운로드되었습니다</string>
@@ -109,6 +140,7 @@
   <string name="help_15">그러나 다른 장치에서 다운로드하는 경우 다음의 소프트웨어를 사용하여 ZIM 파일을 여러 개로 나누어야 할 수 있습니다:</string>
   <string name="help_16">\u2022 마이크로소프트 윈도우: HJ-Split</string>
   <string name="help_17">\u2022 애플 맥 OSX: Split, Concat</string>
+  <string name="help_18">\u2022 GNU/리눅스, 콘솔: split --bytes=4000M my_big_file.zim</string>
   <string name="help_19">참고: 결과 파일의 이름은 my_big_file.zimaa, my_big_file.zimab 등으로 되어야 합니다.</string>
   <string name="pref_storage">기억 장치</string>
   <string name="pref_current_folder">현재 폴더</string>
@@ -136,6 +168,8 @@
   <string name="time_minute">분</string>
   <string name="time_second">초</string>
   <string name="time_left">남음</string>
+  <string name="time_today">오늘</string>
+  <string name="time_yesterday">어제</string>
   <string name="pref_auto_night_mode_summary">야간 모드와 낮 모드를 자동으로 전환합니다.</string>
   <string name="pref_auto_night_mode">자동 야간 모드</string>
   <string name="pref_external_link_popup_title">외부 링크에 진입할 때 경고합니다</string>
@@ -145,26 +179,93 @@
   <string name="do_not_ask_anymore">더 이상 묻지 않습니다</string>
   <string name="your_languages">선택한 언어:</string>
   <string name="other_languages">다른 언어:</string>
-
-  <string-array name="description_help_2">
-    <item>@string/help_3</item>
-    <item>@string/help_4</item>
-  </string-array>
-  <string-array name="description_help_5">
-    <item>@string/help_6</item>
-    <item>@string/help_7</item>
-    <item>@string/help_8</item>
-    <item>@string/help_9</item>
-    <item>@string/help_10</item>
-    <item>@string/help_11</item>
-  </string-array>
-  <string-array name="description_help_12">
-    <item>@string/help_13</item>
-    <item>@string/help_14</item>
-    <item>@string/help_15</item>
-    <item>@string/help_16</item>
-    <item>@string/help_17</item>
-    <item>@string/help_18</item>
-    <item>@string/help_19</item>
-  </string-array>
+  <string name="no_items_msg">사용 가능한 항목이 없음</string>
+  <string name="ongoing_download_channel_name">진행 중인 다운로드</string>
+  <string name="crash_description">충돌이 발생한 것 같습니다.\n\n다음의 정보를 보냄으로써 저희가 이 문제를 해결하는데 도움을 주시겠습니까?</string>
+  <string name="crash_checkbox_language">내 언어 설정</string>
+  <string name="crash_checkbox_zimfiles">Zim 파일 목록</string>
+  <string name="crash_checkbox_exception">충돌 상세 정보</string>
+  <string name="crash_checkbox_logs">애플리케이션 로그</string>
+  <string name="crash_checkbox_device">장치 상세 정보</string>
+  <string name="crash_button_decline">괜찮습니다</string>
+  <string name="new_tab_shortcut_label">새 탭</string>
+  <string name="get_content_shortcut_label">내용 가져오기</string>
+  <string name="fav_icon">파비콘</string>
+  <string name="articleCount">문서 %s개</string>
+  <string name="get_started">시작하기</string>
+  <string name="download_books">책 다운로드</string>
+  <string name="human_kind_knowledge">인류의 지식을 내 전화에.</string>
+  <string name="save_books_offline">책을 오프라인으로 저장하기</string>
+  <string name="unable_to_add_to_bookmarks">북마크에 추가할 수 없습니다</string>
+  <string name="go_to_previous_page">이전 페이지로 이동</string>
+  <string name="go_to_next_page">다음 페이지로 이동</string>
+  <string name="table_of_contents">목차</string>
+  <string name="select_languages">언어 선택</string>
+  <string name="save_languages">언어 저장</string>
+  <string name="send_feedback">피드백 보내기</string>
+  <string name="expand">펼치기</string>
+  <string name="history">역사</string>
+  <string name="history_from_current_book">현재 책의 역사</string>
+  <string name="search_history">검색 역사</string>
+  <string name="selected_items">%1$d개 선택됨</string>
+  <string name="bookmarks_from_current_book">현재 책의 책갈피</string>
+  <string name="search_bookmarks">북마크 검색</string>
+  <string name="switch_tabs">탭 전환</string>
+  <string name="smiling_face">:D</string>
+  <string name="close_all_tabs">모든 탭 닫기</string>
+  <string name="pending_state">보류 중</string>
+  <string name="running_state">진행 중</string>
+  <string name="successful_state">완료</string>
+  <string name="paused_state">일시 중단됨</string>
+  <string name="failed_state">실패: %s</string>
+  <string name="paused_wifi">와이파이 대기 중</string>
+  <string name="paused_connectivity">네트워크 연결 대기 중</string>
+  <string name="paused_retry">재시도 대기 중</string>
+  <string name="paused_unknown">알 수 없음</string>
+  <string name="failed_cannot_resume">알 수 없는 이유로 계속할 수 없습니다</string>
+  <string name="failed_storage_not_found">스토리지를 찾을 수 없습니다</string>
+  <string name="failed_file_already_exists">파일이 이미 존재합니다</string>
+  <string name="failed_unknown_file_error">알 수 없는 파일 시스템 오류</string>
+  <string name="failed_http_error">HTTP 데이터 오류</string>
+  <string name="failed_insufficient_space">스토리지에 충분한 공간이 없습니다</string>
+  <string name="failed_too_many_redirects">너무 많은 넘겨주기</string>
+  <string name="failed_unhandled_http_code">알 수 없는 HTTP 코드를 수신했습니다</string>
+  <string name="failed_unknown">알 수 없음</string>
+  <string name="failed_http_code">HTTP 코드 %s</string>
+  <string name="save">저장</string>
+  <string name="note">노트</string>
+  <string name="wiki_article_title">위키 문서 제목</string>
+  <string name="ext_storage_permission_rationale_add_note">노트를 위해 스토리지 접근 권한이 필요합니다</string>
+  <string name="ext_storage_write_permission_denied_add_note">노트는 스토리지 접근 권한 없이 사용할 수 없습니다</string>
+  <string name="note_save_unsuccessful">노트 저장에 실패했습니다</string>
+  <string name="note_save_successful">노트가 저장되었습니다</string>
+  <string name="note_save_error_storage_not_writable">노드 저장 오류: 스토리지 쓰기 불가</string>
+  <string name="note_share_error_file_missing">노트 파일이 존재하지 않습니다</string>
+  <string name="note_share_app_chooser_title">노트 파일을 다음과 공유:</string>
+  <string name="confirmation_alert_dialog_message">저장되지 않은 변경사항을 버리시겠습니까?</string>
+  <string name="delete_notes_confirmation_msg">모든 노트를 삭제하시겠습니까?</string>
+  <string name="ext_storage_permission_not_granted">오류: 스토리지 권한이 없습니다</string>
+  <string name="notes_deletion_unsuccessful">일부 파일은 삭제되지 않았습니다</string>
+  <string name="severe_loss_error">서버 오류! 와이파이 P2P를 비활성화/재활성화해 보십시오</string>
+  <string name="connection_failed">연결 실패</string>
+  <string name="permission_rationale_location">안드로이드에서 앱의 피어 장치 찾기를 허용하려면 위치 권한이 필요합니다</string>
+  <string name="permission_refused_location">위치 권한 없이 피어 장치를 찾을 수 없습니다</string>
+  <string name="permission_refused_storage">스토리지 권한 없이 zim 파일에 접근할 수 없습니다</string>
+  <string name="discovery_needs_location">위치 서비스 없이 피어를 찾을 수 없습니다</string>
+  <string name="request_enable_wifi">시스템 설정에서 와이파이 P2P 활성화</string>
+  <string name="discovery_needs_wifi">와이파이가 켜져있지 않은 상태에서 피어를 찾을 수 없습니다</string>
+  <string name="transfer_to">파일을 %s(으)로 전송하시겠습니까?</string>
+  <string name="file_transfer_complete">파일 전송 완료</string>
+  <string name="error_during_transfer">전송 도중에 오류가 발생했습니다</string>
+  <string name="error_transferring">파일 %s 전송 오류</string>
+  <string name="get_content_from_nearby_device">주변 장치로부터 콘텐츠 가져오기</string>
+  <string name="search_for_peers">피어 찾기</string>
+  <string name="your_device">내 장치:</string>
+  <string name="nearby_devices">주변 장치</string>
+  <string name="no_devices_found">발견된 장치가 없습니다. 다시 시도하려면 검색 버튼에 탭하십시오.</string>
+  <string name="performing_handshake">핸드셰이크 수행 중...</string>
+  <string name="local_zim_sharing">로컬 ZIM 공유</string>
+  <string name="status">상태</string>
+  <string name="pref_clear_all_notes_summary">모든 문서의 모든 노트 지우기</string>
+  <string name="pref_clear_all_notes_title">모든 노트 지우기</string>
 </resources>

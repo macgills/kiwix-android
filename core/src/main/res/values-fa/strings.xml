@@ -1,4 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors:
+* Ebraminio
+* FarsiNevis
+* Fatemi127
+* Reza1615
+-->
 <resources>
   <string name="menu_help">راهنما</string>
   <string name="menu_home">آغازه</string>
@@ -13,17 +19,18 @@
   <string name="menu_read_aloud_stop">توقف خواندن با صدای بلند</string>
   <string name="save_media">ذخیرهٔ رسانه</string>
   <string name="save_media_error">خطایی در حین ذخیره‌سازی این رسانه رخ داد!</string>
-  <string name="save_media_saved">ذخیره کردن رسانه  با عنوان %1$s در پوشه تصویر شما</string>
+  <string name="save_media_saved" fuzzy="true">ذخیره کردن رسانه  با عنوان %1$s در پوشه تصویر شما</string>
   <string name="rescan_fs_warning">چستچو برای پرونده‌های ZIM، لطفاً صبر کنید…</string>
   <string name="search_label">جستجو</string>
   <string name="choose_file">یک پروندهٔ محتوایی را انتخاب کنید (*.zim)</string>
   <string name="open_in_new_tab">بازکردن پیوند در زبانهٔ جدید؟</string>
+  <string name="stop_hotspot_button">توقف</string>
   <string name="error_file_not_found">خطا: پروندهٔ ZIM انتخاب شده پیدا نشد.</string>
   <string name="error_file_invalid">خطا: پروندهٔ انتخاب‌شده یک پروندهٔ ZIM معتبر نیست.</string>
   <string name="error_article_url_not_found">حطا: بارگیری مقالهٔ (نشانی: %1$s) شکست خورد.</string>
   <string name="pref_display_title">نمایش</string>
   <string name="pref_zoom_sub_title">بزرگ‌نمایی</string>
-  <string name="pref_zoom_dialog">سطح بزرگ/کوچک‌نمایی</string>
+  <string name="pref_zoom_dialog" fuzzy="true">سطح بزرگ/کوچک‌نمایی</string>
   <string name="pref_info_title">اطلاعات</string>
   <string name="pref_info_version">نسخه</string>
   <string name="pref_zoom_enable">کنترل‌های بزرگ/کوچک‌نمایی</string>
@@ -95,26 +102,4 @@
   <string name="do_not_ask_anymore">لطفاً دیگر درخواست نکنید</string>
   <string name="your_languages">زبان‌های انتخاب‌شده:</string>
   <string name="other_languages">زبان‌های دیگر:</string>
-
-  <string-array name="description_help_2">
-    <item>@string/help_3</item>
-    <item>@string/help_4</item>
-  </string-array>
-  <string-array name="description_help_5">
-    <item>@string/help_6</item>
-    <item>@string/help_7</item>
-    <item>@string/help_8</item>
-    <item>@string/help_9</item>
-    <item>@string/help_10</item>
-    <item>@string/help_11</item>
-  </string-array>
-  <string-array name="description_help_12">
-    <item>@string/help_13</item>
-    <item>@string/help_14</item>
-    <item>@string/help_15</item>
-    <item>@string/help_16</item>
-    <item>@string/help_17</item>
-    <item>@string/help_18</item>
-    <item>@string/help_19</item>
-  </string-array>
 </resources>

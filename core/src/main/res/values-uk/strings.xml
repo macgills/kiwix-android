@@ -1,6 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors:
+* Andriykopanytsia
+* Base
+* Lxlalexlxl
+* Movses
+* Piramidion
+* Vlad5250
+* Ypryima
+-->
 <resources>
-  <string name="menu_zim_manager">Отримати контент</string>
+  <string name="menu_zim_manager" fuzzy="true">Отримати контент</string>
   <string name="menu_help">Довідка</string>
   <string name="menu_home">Головна</string>
   <string name="menu_settings">Налаштування</string>
@@ -19,6 +28,7 @@
   <string name="search_label">Пошук</string>
   <string name="choose_file">Виберіть файл вмісту (*.zim)</string>
   <string name="open_in_new_tab">Відкрити посилання в новій вкладці?</string>
+  <string name="stop_hotspot_button" fuzzy="true">Зупинити</string>
   <string name="error_file_not_found">Помилка: вибраний ZIM файл неможливо знайти.</string>
   <string name="error_file_invalid">Помилка: вибраний файл не є вірним файлом ZIM.</string>
   <string name="error_article_url_not_found">Помилка: завантаження статті (Url: %1$s) не вдалося.</string>
@@ -109,6 +119,7 @@
   <string name="help_15">Якщо, однак, Ви завантажуєте на іншому пристрої, можливо, Вам треба буде розділити ZIM-файл за допомогою такого програмного забезпечення:</string>
   <string name="help_16">\u2022 На Microsoft Windows: HJ-Split</string>
   <string name="help_17">\u2022 На Apple Mac OSX: Split and Concat</string>
+  <string name="help_18">\u2022 На GNU/Linux і через термінал: split --bytes=4000M my_big_file.zim</string>
   <string name="help_19">Примітка: файли, отримані Вами в результаті, повинні мати назви my_big_file.zimaa, my_big_file.zimab тощо.</string>
   <string name="pref_storage">Зберігання даних</string>
   <string name="pref_current_folder">Поточна папка</string>
@@ -145,26 +156,8 @@
   <string name="do_not_ask_anymore">Більш не питати</string>
   <string name="your_languages">Вибір мови:</string>
   <string name="other_languages">Інші мови:</string>
-
-  <string-array name="description_help_2">
-    <item>@string/help_3</item>
-    <item>@string/help_4</item>
-  </string-array>
-  <string-array name="description_help_5">
-    <item>@string/help_6</item>
-    <item>@string/help_7</item>
-    <item>@string/help_8</item>
-    <item>@string/help_9</item>
-    <item>@string/help_10</item>
-    <item>@string/help_11</item>
-  </string-array>
-  <string-array name="description_help_12">
-    <item>@string/help_13</item>
-    <item>@string/help_14</item>
-    <item>@string/help_15</item>
-    <item>@string/help_16</item>
-    <item>@string/help_17</item>
-    <item>@string/help_18</item>
-    <item>@string/help_19</item>
-  </string-array>
+  <string name="send_feedback">Надіслати відгук</string>
+  <string name="close_all_tabs">Закрити усі вкладки</string>
+  <string name="failed_storage_not_found">Неможливо знайти зберігання</string>
+  <string name="delete_notes_confirmation_msg">Видалити всі нотатки?</string>
 </resources>

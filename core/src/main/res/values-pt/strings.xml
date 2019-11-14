@@ -1,6 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors:
+* Athena in Wonderland
+* Fitoschido
+* Freeedusoft
+* Hamilton Abreu
+* Imperadeiro90
+* Imperadeiro98
+* Kelson
+* Macofe
+* Rukasuoribera
+* Vitorvicentevalente
+* Waldyrious
+-->
 <resources>
-  <string name="menu_zim_manager">Obter conteúdo</string>
+  <string name="menu_zim_manager" fuzzy="true">Obter conteúdo</string>
   <string name="menu_help">Ajuda</string>
   <string name="menu_home">Início</string>
   <string name="menu_settings">Configurações</string>
@@ -19,6 +32,7 @@
   <string name="search_label">Pesquisar</string>
   <string name="choose_file">Selecionar um ficheiro de conteúdo (*.zim)</string>
   <string name="open_in_new_tab">Abrir ligação num novo separador?</string>
+  <string name="stop_hotspot_button">PARAR</string>
   <string name="error_file_not_found">Erro: não foi possível encontrar o ficheiro ZIM selecionado.</string>
   <string name="error_file_invalid">Erro: o ficheiro selecionado não é um ficheiro ZIM válido.</string>
   <string name="error_article_url_not_found">Erro: o carregamento do artigo falhou (URL: %1$s).</string>
@@ -70,6 +84,7 @@
   <string name="bookmark_removed">Marcador removido</string>
   <string name="pref_newtab_background_title">Abrir separador novo em segundo plano</string>
   <string name="pref_newtab_background_summary">Ao abrir um separador novo, ele será aberto em segundo plano</string>
+  <string name="pref_extras">Extras</string>
   <string name="new_tab_snack_bar">Artigo aberto num novo separador</string>
   <string name="search_widget_text">Procurar no Kiwix</string>
   <string name="speech_prompt_text">Falar para pesquisar %s</string>
@@ -94,20 +109,21 @@
   <string name="no_network_connection">Nenhuma ligação de rede</string>
   <string name="help_2">O que faz o Kiwix?</string>
   <string name="help_3">O Kiwix é um leitor de conteúdo offline. Funciona tal como um navegador mas, em vez de aceder a páginas da Internet online, lê o conteúdo de um ficheiro no formato ZIM.</string>
-  <string name="help_4">Embora o Kiwix tenha sido originalmente desenhado para fornecer a Wikipédia offline, também lê outros conteúdos.</string>
+  <string name="help_4" fuzzy="true">Embora o Kiwix tenha sido originalmente desenhado para fornecer a Wikipédia offline, também lê outros conteúdos.</string>
   <string name="help_5">Onde está o conteúdo?</string>
   <string name="help_6">O nosso conteúdos estão alojados no site do Kiwix.</string>
   <string name="help_7">Estão disponíveis como ficheiros ZIM. Há muitos deles:</string>
   <string name="help_8">\u2022 A Wikipédia está disponível em separado para cada língua</string>
   <string name="help_9">\u2022 Também estão disponíveis outros conteúdos, tais como Wikileaks ou Wikisource</string>
-  <string name="help_10">Pode descarregar os ficheiros ZIM que selecionou dentro da aplicação ou selecionar cuidadosamente os que deseja e fazer o download a partir de um computador de secretária antes de transferi-los para o seu cartão SD.</string>
+  <string name="help_10" fuzzy="true">Pode descarregar os ficheiros ZIM que selecionou dentro da aplicação ou selecionar cuidadosamente os que deseja e fazer o download a partir de um computador de secretária antes de transferi-los para o seu cartão SD.</string>
   <string name="help_11">Os ficheiros ZIM descarregados dentro da aplicação estão localizados no diretório de armazenamento externo numa pasta intitulada Kiwix.</string>
   <string name="help_12">Como usar ficheiros ZIM grandes?</string>
   <string name="help_13">Se o seu ficheiro ZIM for maior do que 4 GB, talvez não consiga armazená-lo no seu cartão SD devido às limitações do sistema de ficheiros.</string>
-  <string name="help_14">Fazer o download dentro da aplicação trata automaticamente dos ficheiros grandes, dividindo-os por si.</string>
+  <string name="help_14" fuzzy="true">Fazer o download dentro da aplicação trata automaticamente dos ficheiros grandes, dividindo-os por si.</string>
   <string name="help_15">Se, no entanto, estiver a descarregar noutro dispositivo, talvez seja necessário dividir o ficheiro ZIM usando o seguinte software:</string>
   <string name="help_16">\u2022 No Microsoft Windows: HJ-Split</string>
   <string name="help_17">\u2022 No Apple Mac OSX: Split and Concat</string>
+  <string name="help_18">\u2022 No GNU/Linux e com a consola: split --bytes=4000M o_meu_ficheiro.zim</string>
   <string name="help_19">Nota: os ficheiros resultantes têm de ter os nomes o_meu_ficheiro.zimaa, o_meu_ficheiro.zimab, etc.</string>
   <string name="pref_storage">Armazenamento</string>
   <string name="pref_current_folder">Pasta atual</string>
@@ -131,6 +147,9 @@
   <string name="wifi_only_msg">Se escolheu “Sim”, não será avisado no futuro. No entanto, pode sempre alterar isto nas Configurações</string>
   <string name="pref_wifi_only">Descarregar conteúdo apenas por WiFi</string>
   <string name="time_day">dia</string>
+  <string name="time_hour">h</string>
+  <string name="time_minute">min</string>
+  <string name="time_second">s</string>
   <string name="time_left">esquerda</string>
   <string name="pref_auto_night_mode_summary">Alternar automaticamente entre o modo diurno e noturno.</string>
   <string name="pref_auto_night_mode">Modo noturno automático</string>
@@ -141,26 +160,4 @@
   <string name="do_not_ask_anymore">Não perguntar mais</string>
   <string name="your_languages">Línguas selecionadas:</string>
   <string name="other_languages">Outras línguas:</string>
-
-  <string-array name="description_help_2">
-    <item>@string/help_3</item>
-    <item>@string/help_4</item>
-  </string-array>
-  <string-array name="description_help_5">
-    <item>@string/help_6</item>
-    <item>@string/help_7</item>
-    <item>@string/help_8</item>
-    <item>@string/help_9</item>
-    <item>@string/help_10</item>
-    <item>@string/help_11</item>
-  </string-array>
-  <string-array name="description_help_12">
-    <item>@string/help_13</item>
-    <item>@string/help_14</item>
-    <item>@string/help_15</item>
-    <item>@string/help_16</item>
-    <item>@string/help_17</item>
-    <item>@string/help_18</item>
-    <item>@string/help_19</item>
-  </string-array>
 </resources>

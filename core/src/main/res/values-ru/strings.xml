@@ -1,6 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors:
+* Avd2ev
+* DevilishSkull
+* Facenapalm
+* Gehhrr
+* Helpau
+* Kareyac
+* Link2xt
+* Movses
+* Okras
+* Putnik
+-->
 <resources>
-  <string name="menu_zim_manager">Получить Контент</string>
+  <string name="menu_zim_manager" fuzzy="true">Получить Контент</string>
   <string name="menu_help">Помощь</string>
   <string name="menu_home">Главная</string>
   <string name="menu_settings">Настройки</string>
@@ -19,6 +31,7 @@
   <string name="search_label">Поиск</string>
   <string name="choose_file">Выберите файл содержимого (*.zim)</string>
   <string name="open_in_new_tab">Открыть ссылку в новой вкладке?</string>
+  <string name="stop_hotspot_button" fuzzy="true">Остановить</string>
   <string name="error_file_not_found">Ошибка: выбранный ZIM-файл не найден.</string>
   <string name="error_file_invalid">Ошибка: Выбранный файл не является пригодным ZIM-файлом.</string>
   <string name="error_article_url_not_found">Ошибка: Загрузка статьи (Url: %1$s) не удалась.</string>
@@ -109,6 +122,7 @@
   <string name="help_15">Однако, если вы загружаете на другое устройство, вам может потребоваться разделить ZIM файл, используя следующее ПО:</string>
   <string name="help_16">• На Microsoft Windows: HJ-Split</string>
   <string name="help_17">\u2022 На Apple Mac OSX: Split and Concat</string>
+  <string name="help_18">\u2022 На GNU/Linux и с консолью: split --bytes=4000M my_big_file.zim</string>
   <string name="help_19">Примечание: ваши готовые файлы должны быть названы my_big_file.zimaa, my_big_file.zimab и т.д.</string>
   <string name="pref_storage">Хранилище</string>
   <string name="pref_current_folder">Текущая Папка</string>
@@ -145,26 +159,27 @@
   <string name="do_not_ask_anymore">Больше не спрашивай</string>
   <string name="your_languages">Выбранные языки:</string>
   <string name="other_languages">Другие языки:</string>
-
-  <string-array name="description_help_2">
-    <item>@string/help_3</item>
-    <item>@string/help_4</item>
-  </string-array>
-  <string-array name="description_help_5">
-    <item>@string/help_6</item>
-    <item>@string/help_7</item>
-    <item>@string/help_8</item>
-    <item>@string/help_9</item>
-    <item>@string/help_10</item>
-    <item>@string/help_11</item>
-  </string-array>
-  <string-array name="description_help_12">
-    <item>@string/help_13</item>
-    <item>@string/help_14</item>
-    <item>@string/help_15</item>
-    <item>@string/help_16</item>
-    <item>@string/help_17</item>
-    <item>@string/help_18</item>
-    <item>@string/help_19</item>
-  </string-array>
+  <string name="crash_description">Похоже, приложение вылетело.\n\nНе могли бы вы помочь нам исправить эту проблему, предоставив следующую информацию?</string>
+  <string name="crash_checkbox_language">Ваши Языковые Настройки</string>
+  <string name="crash_checkbox_zimfiles">Список Ваших Zim Файлов</string>
+  <string name="crash_checkbox_logs">Журнал Действий Приложения</string>
+  <string name="crash_checkbox_device">Подробности об Устройстве</string>
+  <string name="crash_button_confirm">ОТПРАВИТЬ ПОДРОБНОСТИ</string>
+  <string name="crash_button_decline">НЕТ, СПАСИБО</string>
+  <string name="download_books">Скачивайте книги</string>
+  <string name="download_books_message">Скачивайте книги и читайте, где бы вы ни были.</string>
+  <string name="expand">Развернуть</string>
+  <string name="bookmarks_from_current_book">Закладки в текущей книге</string>
+  <string name="close_all_tabs">Закрыть все вкладки</string>
+  <string name="failed_state">Ошибка: %s</string>
+  <string name="failed_cannot_resume">Не удалось продолжить по неизвестной причине</string>
+  <string name="failed_file_already_exists">Файл уже существует</string>
+  <string name="failed_insufficient_space">Недостаточно места на диске</string>
+  <string name="failed_http_code">HTTP код %s</string>
+  <string name="ext_storage_permission_rationale_add_note">Разрешение на хранение необходимо для Заметок</string>
+  <string name="ext_storage_write_permission_denied_add_note">Заметки не могут быть использованы без разрешения на хранение</string>
+  <string name="confirmation_alert_dialog_message">Отменить несохранённые изменения?</string>
+  <string name="delete_notes_confirmation_msg">Удалить все заметки?</string>
+  <string name="ext_storage_permission_not_granted">Ошибка: Отсутствует разрешение на хранение</string>
+  <string name="pref_clear_all_notes_title" fuzzy="true">Очистить Все Заметки</string>
 </resources>
