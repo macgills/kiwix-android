@@ -205,7 +205,7 @@
   <string name="pending_state">Envicigita</string>
   <string name="running_state">Progresante</string>
   <string name="successful_state">Kompleta</string>
-  <string name="paused_state" fuzzy="true">Paŭzita: %s</string>
+  <string name="paused_state" fuzzy="true">Paŭzita</string>
   <string name="failed_state">Malsukceso: %s</string>
   <string name="paused_wifi">Atendante retan konekton</string>
   <string name="paused_connectivity">Atendante konekton al reto</string>

@@ -172,7 +172,7 @@
   <string name="close_all_tabs">Sulje kaikki välilehdet</string>
   <string name="pending_state">Avoin</string>
   <string name="running_state">Käynnissä</string>
-  <string name="paused_state" fuzzy="true">Pysäytetty: %s</string>
+  <string name="paused_state" fuzzy="true">Pysäytetty</string>
   <string name="paused_wifi">Odotetaan Wifi-yhteyttä</string>
   <string name="paused_connectivity">Odotetaan yhteyden muodostamista verkkoon</string>
   <string name="paused_unknown">Tuntematon</string>

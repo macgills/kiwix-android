@@ -206,7 +206,7 @@
   <string name="pending_state">V delu</string>
   <string name="running_state">V teku</string>
   <string name="successful_state">Končano</string>
-  <string name="paused_state" fuzzy="true">Premor: %s</string>
+  <string name="paused_state" fuzzy="true">Premor</string>
   <string name="failed_state">Neuspešno: %s</string>
   <string name="paused_wifi">Čakanje na Wifi</string>
   <string name="paused_connectivity">Čakanje na povezavo z omrežjem</string>
